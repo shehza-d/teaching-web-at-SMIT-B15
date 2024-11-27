@@ -17,3 +17,5 @@ attendance / assignment
 3. 
 
 https://github.com/shehza-d/Learning-Resources/blob/main/02.Starting-of-Development(HTML)/00.Web_development_book(jon-ducket).pdf
+
+https://youtu.be/zDAYZU4A3w0?si=RpNdRxWBnNM9yRW2
