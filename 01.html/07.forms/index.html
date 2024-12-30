@@ -9,14 +9,53 @@
     <h1>Forms</h1>
 
     <h2>security and user experience</h2>
+
     <form>
-      <input type="text" />
+      <input
+        placeholder="enter your name"
+        minlength="6"
+        maxlength="8"
+        type="text"
+      />
       <br />
-      <input type="password" /> <br />
-      <input type="file" accept="image/gif" /> <br />
+      <input required placeholder="email" type="email" /> <br />
+      <input placeholder="password" type="password" /> <br />
+      <input type="file" accept="image/png" /> <br />
       <input type="date" />
+
+      <br />
+      <br />
+
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="male"> male </label>
+
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="female"> female </label>
+
+      <input type="radio" name="gender" value="other" id="other" />
+      <label for="other"> other </label>
+
+      <br />
+      <br />
+
+      <select name="devices">
+        <option selected disabled>Please select</option>
+        <option value="ipod">iPod</option>
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option>
+      </select>
+
+      <br />
+      <br />
+
+      <button type="reset">safaii</button>
+
+      <button type="submit">Chalo bhai</button>
     </form>
+
+    <ul>
+      <li>dost allah se darne wala</li>
+      <li>mushkil ma kam aane wala</li>
+    </ul>
   </body>
-  </html>
-  
-  limit on form 
+</html>
