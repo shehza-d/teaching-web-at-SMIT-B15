@@ -10,19 +10,36 @@
 
     <h2>security and user experience</h2>
 
+    <p>ye form saruf batch 15 ky liye hy</p>
     <form>
+    
       <input
         placeholder="enter your name"
         minlength="6"
         maxlength="8"
         type="text"
+        name="username"
       />
       <br />
-      <input required placeholder="email" type="email" /> <br />
+     
+      <label for="">password *</label>
+      <input
+        required
+        placeholder="email"
+        type="email"
+        name="user-email"
+        value="@gmail.com"
+      />
+      <br />
+
       <input placeholder="password" type="password" /> <br />
-      <input type="file" accept="image/png" /> <br />
+     
+      profile photo
+      <input name="profile-photo" type="file" accept="image/png" /> <br />
+     
       <input type="date" />
 
+      <input type="number" />
       <br />
       <br />
 
@@ -48,9 +65,31 @@
       <br />
       <br />
 
-      <button type="reset">safaii</button>
+      <input type="hidden" value="about" />
 
-      <button type="submit">Chalo bhai</button>
+      <br />
+      <br />
+      <br />
+
+      <!-- <button type="reset">safaii</button> -->
+      <button type="submit">
+        <img
+          width="100"
+          height="100"
+          src="https://www.collinsdictionary.com/images/full/apple_158989157.jpg"
+          alt=""
+        />
+        Submitt
+      </button>
+    </form>
+
+    <form>
+      <select name="instruments" size="3" multiple="multiple">
+        <option value="guitar" selected="selected">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keyboard" selected="selected">Keyboard</option>
+        <option value="bass">Bass</option>
+      </select>
     </form>
 
     <ul>
