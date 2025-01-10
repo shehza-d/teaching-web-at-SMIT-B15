@@ -1,0 +1,12 @@
+h1 {
+  /* background-color: aqua; */
+  /* height: 500px; */
+  /* width: 200px; */
+  /* font-size: 50px; */
+}
+
+/* id aur class ky name case sensitive */
+.tesTing {
+  color: blueviolet;
+  background-color: chartreuse;
+}

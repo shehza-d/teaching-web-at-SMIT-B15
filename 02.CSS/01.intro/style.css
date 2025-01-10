@@ -1,4 +1,9 @@
 /* <link rel="stylesheet" href="./style.css" /> */
+
+body{
+  background-color: gray;
+}
+
 h1 {
   color: red;
 }
@@ -31,3 +36,6 @@ p {
 }
 
 /* id ky name se phale # lagta hy */
+#testing-id {
+  color: blue;
+}
