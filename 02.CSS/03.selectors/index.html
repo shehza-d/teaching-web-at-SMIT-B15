@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* 252 */
+      * {
+        /* color: green; */
+        /* background-color: aquamarine;  */
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      a.testing {
+        /* color: red; */
+      }
+
+      /* paragraph ky directly ander jitnay bhi a tag hyn sab style ho jaye gye */
+      p > a {
+        color: red;
+      }
+
+      /* paragraph ky ander nested jitnay bhi a tag hyn sab style ho jaye gye */
+      p a {
+        color: red;
+      }
+
+      h2 {
+        color: blue !important;
+        color: green;
+      }
+      .mera-h2 {
+        color: orange;
+      }
+
+      .page {
+        /* border is not inherited property (saruf parent per apply hoga child per nhi) */
+        border: 4px solid red;
+
+        /* color is inherited property (ye sab children per khud apply ho jaye gyi) */
+        color: rgb(0, 0, 0);
+
+
+       
+        background: linear-gradient(
+          145deg,
+          rgba(2, 145, 31, 1) 0%,
+          rgba(0, 212, 255, 1) 57%,
+          rgba(9, 9, 121, 1) 100%
+        );
+
+      }
+      /* .page > h1 {
+        border: inherit;
+      }
+      .page > p {
+        border: inherit;
+      } */
+
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="testing">hello</h1>
+
+    <p class="saylani">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+      ipsum repellendus porro incidunt sapiente aliquid numquam, magnam eius
+      dignissimos. Sequi omnis repellat ipsa quisquam hic enim sit distinctio
+      nulla. Ad.
+    </p>
+    <p class="testing">
+      Lorem ipsum, dolor <span> <a href="fb.com"> sit </a> </span> amet
+      consectetur adipisicing elit. Praesentium magnam deleniti magni ducimus
+      officia consequatur sunt cupiditate repellendus ipsa corrupti tenetur
+      dicta dolore, blanditiis quaerat veniam, ipsum illo perspiciatis maxime.
+    </p>
+
+    <a href="http://www.fb.com" class="testing">Facebook</a>
+    <a href="http://www.fb.com" class="testing">Facebook</a>
+
+    <h2 class="mera-h2">Testing precedence</h2>
+
+    <!-- 
+     -->
+
+    <div class="page">
+      <h1>Potatoes</h1>
+      <p>There are dozens of different potato varieties.</p>
+      <p>
+        They are usually described as early, second early and maincrop potatoes.
+      </p>
+    </div>
+  </body>
+</html>
