@@ -3,17 +3,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Jersey+15&display=swap");
 
+/* https://caniuse.com/ */
+
 /* 276 */
 * {
-  font-family: "Playwrite VN", serif;
+  /* fallback is san-serif (mtlb 1st nhi mila tw 2nd chale ga */
+  /* font-family: "Playwrite VN", sans-serif; */
   font-weight: 500;
-  /* font-family: sans-serif; */
 }
 
 p {
-  font-family: "Jersey 15", serif;
+  /* font-family: "Jersey 15", serif; */
 }
 
 .urdu {
   font-family: "Baloo Bhaijaan 2", serif;
 }
+
+@font-face {
+  /* downloaded font */
+  font-family: "Playwrite";
+  src: url("./fonts/PlaywriteIN-VariableFont_wght.ttf");
+}
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
+  /* text-transform: capitalize; */
+  /* font-family: "Playwrite", "Courier New", Courier, monospace; */
+  text-indent: 20px;
+  /* margin: 50px; */
+}
+
+p:first-letter {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: red;
+}
+
+p:first-line {
+  font-weight: bold;
+  color: green;
+}
+/* https://stackoverflow.com/ */
+
+/* 289 */
