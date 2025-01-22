@@ -1,0 +1,47 @@
+/* 313 */
+
+a:link {
+  color: deeppink;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkcyan;
+}
+
+h1:hover {
+  color: pink;
+  background-color: black;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+  box-shadow: 2px 2px 4px gray;
+}
+button:active {
+  box-shadow: 2px 2px 4px gray inset;
+}
+button:hover {
+  transform: translateY(-2px);
+}
+
+div {
+  margin: 20px;
+  padding: 20px;
+
+  border: 2px solid red;
+  /* width: 100px; */
+  height: 150px;
+  overflow: scroll;
+}

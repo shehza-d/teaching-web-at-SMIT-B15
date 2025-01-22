@@ -8,12 +8,12 @@
 /* 276 */
 * {
   /* fallback is san-serif (mtlb 1st nhi mila tw 2nd chale ga */
-  /* font-family: "Playwrite VN", sans-serif; */
+  font-family: "Playwrite VN", sans-serif;
   font-weight: 500;
 }
 
 p {
-  /* font-family: "Jersey 15", serif; */
+  font-family: "Jersey 15", serif;
 }
 
 .urdu {
