@@ -1,5 +1,9 @@
 /* 313 */
 
+body {
+  height: 600px;
+}
+
 a:link {
   color: deeppink;
   text-decoration: none;
@@ -37,11 +41,38 @@ button:hover {
 }
 
 div {
-  margin: 20px;
+  width: 300px;
+  margin: auto;
+
   padding: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px; */
+
+  /* padding: 10px 30px 60px 90px;  */
+
+  /* padding: (1 top and bottom) (2 right and left) */
+  /* padding: 90px 10px;  */
 
   border: 2px solid red;
   /* width: 100px; */
-  height: 150px;
-  overflow: scroll;
+  /* height: 150px; */
+  /* overflow: scroll; */
+  /* display: none; */
+  /* visibility: hidden; */
+  opacity: 0%;
+}
+
+div:hover {
+  opacity: 100%;
+  /* visibility: visible; */
+}
+
+ul {
+  /* display: none; */
+}
+
+li {
+  display: inline;
 }
