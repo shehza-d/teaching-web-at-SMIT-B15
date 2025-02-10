@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #ffefba 0%, #ffffff 100%);
+}
+
+header {
+  height: 115px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav ul {
+  display: none;
+  list-style: none;
+  gap: 10px;
+}
+
+.icons {
+  border: 2px solid red;
+  height: 30px;
+  width: 70px;
+}   
+hero{
+    display: flex;
+}
+
+
+@media (width >= 650px) {
+  .icons {
+    border: 2px solid green;
+  }
+
+  nav ul {
+    display: flex;
+  }
+}
