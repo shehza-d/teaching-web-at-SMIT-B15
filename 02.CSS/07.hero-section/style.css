@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", serif;
 }
 
 body {
@@ -10,11 +13,10 @@ body {
 
 header {
   height: 115px;
-  border: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  /* padding: 30px; */
 }
 nav {
   display: flex;
@@ -28,14 +30,51 @@ nav ul {
 }
 
 .icons {
-  border: 2px solid red;
   height: 30px;
   width: 70px;
-}   
-hero{
-    display: flex;
 }
 
+hero {
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.left > h1 {
+  font-size: 52px;
+  font-weight: 500;
+}
+.left > p {
+  font-size: 20px;
+}
+
+.left > button {
+  background: linear-gradient(90deg, #ff4e50 0%, #f9d423 100%);
+  color: white;
+  border-radius: 30px;
+  /* padding: 5px 0; */
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  flex-shrink: 0;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right > img {
+  height: 250px;
+  object-fit: contain;
+}
 
 @media (width >= 650px) {
   .icons {
@@ -45,4 +84,21 @@ hero{
   nav ul {
     display: flex;
   }
+  .right > img {
+    height: 400px;
+  }
+}
+
+@media (width >= 950px) {
+  hero {
+    /* total height ma se koi value add ya sub karni ho tw */
+    height: calc(100vh - 115px);
+    flex-direction: row;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
 }
