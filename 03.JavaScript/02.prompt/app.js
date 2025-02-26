@@ -27,6 +27,9 @@ console.log(userName);
 
 // const change nhi hota
 const email = "shehzad@mail.com";
+// const Email = "shehzad@mail.com";
+
+const zakat = 2.5;
 
 email = "pakistan"; // TypeError
 
