@@ -13,6 +13,3 @@ backend vs frontend
 
 start from point 3 
 https://github.com/shehza-d/teaching-web-at-SMIT-B11/blob/main/01.Important-Concepts/github.md
-
-
-03343863784
