@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <script>
+      console.log(4 ** 3); // iska mtlb hy 4 ki power 3 ya 4 cube
+      console.log((2 + 3) * 4);
+      console.log(2 + 3 * 4);
+      console.log(2 + 3 * 4);
+      let a = 17;
+      let b = 35;
+      let c = 3;
+
+      let test;
+
+      test = (a / b) * 100;
+      test = test + (c / a) * 100;
+      test = test + b / (c * 100);
+
+      console.log(test);
+
+      console.log(2 * 4 * (4 + 2));
+
+      //   new
+      let num1 = prompt("enter number 1");
+      let num2 = prompt("enter number 2");
+      let num3 = prompt("enter number 3");
+
+      num1 = Number(num1);
+      num2 = Number(num2);
+      num3 = Number(num3);
+
+      console.log("number 1 ki value hy:", typeof num1);
+      console.log("number 2 ki value hy:", num2);
+      console.log("number 2 ki value hy:", num3);
+
+      alert(num1 / num2 - num3);
+
+      let num2 = parseInt("42px");
+      console.log(num2);
+
+      let num3 = parseFloat("3.14");
+      console.log(num3); // Output: 42 (px ignore ho gaya)
+
+      let num5 = Number("123");
+      console.log(num5);
+
+      let num6 = toString(123); //number ko string mae convert karna
+      console.log("123");
+    </script>
+  </body>
 </html>

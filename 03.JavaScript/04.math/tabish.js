@@ -54,5 +54,6 @@ let test;
 test = (a / b) * 100;
 test = test + (c / a) * 100;
 test = test + b / (c * 100);
+
 // 66.32, 90,
 console.log(test);
