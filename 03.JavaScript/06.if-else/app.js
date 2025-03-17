@@ -30,9 +30,18 @@ let temperature = 20;
 
 // 20 pr sardi
 
-// if (temperature <= 20) {
-//   // ye code chale ga
-//   console.log("Sardi hy 🥶");
-// } else {
-//   console.log("Garmi hy 🌞");
-// }
+if (temperature <= 20) {
+  // ye code chale ga
+  console.log("Sardi hy 🥶");
+} else {
+  console.log("Garmi hy 🌞");
+}
+
+//
+const city = prompt("What is the city of Lights?");
+
+if (city.toLowerCase() === "karachi") {
+  console.log("Right!");
+} else {
+  console.log("Wrong!");
+}
